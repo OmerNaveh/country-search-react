@@ -1,0 +1,42 @@
+.arrow{
+    color: gray;
+}
+.select{
+    visibility: hidden;
+}
+#root{
+    width: 80%;
+    margin: 0 10%;
+}
+.scroll{
+    overflow-y: scroll;
+    height: 150px;
+    overflow-x:hidden;
+    margin: 0 30%;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.option:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+.searchInp{
+    border: none;
+    font-size: 20px;
+}
+.searchBar{
+    border: 1px solid black;
+    margin: 0 30%;
+    display: grid;
+    grid-template-columns: 90% 5% 5%; 
+}
+button{
+    background: none;
+    border: none;
+}
